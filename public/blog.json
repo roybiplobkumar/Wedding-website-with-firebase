@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Tips for a Perfect Wedding Day",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat justo at pretium blandit. Donec auctor ante in dui.",
+        "imageUrl": "https://images.pexels.com/photos/2472858/pexels-photo-2472858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 2,
+        "title": "Choosing the Right Wedding Venue",
+        "description": "Praesent auctor ipsum ut lorem iaculis, vel venenatis justo mattis. Nullam non lectus eget tortor bibendum facilisis.",
+        "imageUrl": "https://images.pexels.com/photos/940831/pexels-photo-940831.png?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 3,
+        "title": "The Importance of Wedding Photography",
+        "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi.",
+        "imageUrl": "https://images.pexels.com/photos/3832033/pexels-photo-3832033.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 4,
+        "title": "Creating a Memorable Wedding Playlist",
+        "description": "Proin ac nibh eu orci volutpat varius. Curabitur sit amet justo ac libero posuere tincidunt. Sed nec sapien sit amet metus varius blandit.",
+        "imageUrl": "https://images.pexels.com/photos/7437495/pexels-photo-7437495.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 5,
+        "title": "Wedding Cake Ideas and Trends",
+        "description": "Suspendisse at orci sed sapien ultricies varius. Fusce at nulla vitae quam scelerisque varius. Fusce non malesuada velit.",
+        "imageUrl": "https://images.pexels.com/photos/6479548/pexels-photo-6479548.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 6,
+        "title": "Planning a Destination Wedding",
+        "description": "Aliquam tincidunt tortor quis urna auctor, sed cursus neque ullamcorper. Sed eu neque vel purus luctus lacinia.",
+        "imageUrl": "https://images.pexels.com/photos/7368311/pexels-photo-7368311.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 7,
+        "title": "Wedding Decor and Color Schemes",
+        "description": "Vivamus gravida odio in elit ultrices, vel scelerisque elit congue. Etiam fringilla urna vel dolor tincidunt, in bibendum elit condimentum.",
+        "imageUrl": "https://images.pexels.com/photos/1045541/pexels-photo-1045541.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 8,
+        "title": "Choosing the Right Wedding Attire",
+        "description": "Nullam bibendum ex a ante luctus, eget mattis risus varius. In nec urna a nisi dictum sollicitudin.",
+        "imageUrl": "https://images.pexels.com/photos/6500535/pexels-photo-6500535.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 9,
+        "title": "Wedding Planning Checklist",
+        "description": "Sed at mauris at libero vulputate venenatis id eu dui. Fusce efficitur, ex ut hendrerit bibendum, purus sapien varius massa, ut consectetur ante est id justo.",
+        "imageUrl": "https://images.pexels.com/photos/768472/pexels-photo-768472.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 10,
+        "title": "Personalizing Your Wedding Ceremony",
+        "description": "Aenean et justo eu ligula condimentum scelerisque a eget quam. Duis vel tortor vel leo interdum euismod.",
+        "imageUrl": "https://images.pexels.com/photos/3785644/pexels-photo-3785644.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 11,
+        "title": "10 Creative Wedding Photo Ideas",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat justo at pretium blandit. Donec auctor ante in dui.",
+        "imageUrl": "https://images.pexels.com/photos/1061133/pexels-photo-1061133.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": 12,
+        "title": "The Perfect Wedding Flowers",
+        "description": "Praesent auctor ipsum ut lorem iaculis, vel venenatis justo mattis. Nullam non lectus eget tortor bibendum facilisis.",
+        "imageUrl": "https://images.pexels.com/photos/540522/pexels-photo-540522.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+]

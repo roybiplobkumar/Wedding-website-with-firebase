@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "img_url": "https://wordpress.zozothemes.com/wedknot/wp-content/uploads/sites/9/elementor/thumbs/Service-4-q93x68tgykxei28ylc5qhxg8dpa3ojgvde373i4sj4.jpg",
+    "title": "Ceremony Services",
+    "description": "Make your wedding ceremony truly memorable with our expert services. Our team specializes in creating unique and personalized ceremonies that reflect your love story. From selecting the perfect venue to crafting meaningful vows, we're here to ensure your special day is everything you've dreamed of. Our experienced officiants will guide you through the ceremony with warmth and professionalism, making every moment unforgettable.\n\nWith our comprehensive ceremony services, you can relax and enjoy your wedding day, knowing that every detail has been taken care of. Whether you're planning a traditional ceremony or a one-of-a-kind celebration, we're here to make it a day to remember.\n\nWe believe that your wedding ceremony should be a reflection of your love and commitment to each other. Let us help you create the perfect start to your lifelong journey together.",
+    "price": "$2000"
+  },
+  {
+    "id": 2,
+    "img_url": "https://wordpress.zozothemes.com/wedknot/wp-content/uploads/sites/9/elementor/thumbs/Service-3-q93wpwei4ajwm5zo19ta51xoihubu0kwghp8oad8q8.jpg",
+    "title": "Best Restaurant",
+    "description": "Experience exquisite dining at our finest restaurant. Our culinary team will craft a customized menu to delight your guests with delectable dishes and drinks. From elegant plated dinners to buffet-style feasts, we cater to your preferences. Our restaurant provides a charming and intimate atmosphere for your wedding reception.\n\nOur talented chefs source the finest ingredients to create a culinary experience that will leave a lasting impression on your guests. We understand that the dining experience is a central part of your wedding celebration, and we're dedicated to making it exceptional.\n\nWhether you're planning an intimate gathering or a grand reception, our restaurant offers a range of dining options to suit your needs. We look forward to serving you and creating a culinary journey that reflects your tastes and preferences.",
+    "price": "$75 per person"
+  },
+  {
+    "id": 3,
+    "img_url": "https://wordpress.zozothemes.com/wedknot/wp-content/uploads/sites/9/elementor/thumbs/Service-3-q93wh8c33aopjmkynix558onakkgui60ll41cf7y40.jpeg",
+    "title": "Registry Services",
+    "description": "Create your dream wedding registry with us. We understand that building a life together is an exciting journey, and your registry should reflect your unique style and needs. Our registry experts will assist you in curating a collection of gifts that make your newlywed life perfect.\n\nWe offer a wide selection of items, from practical household essentials to unique and personalized gifts. Our registry consultants are here to guide you through the process, helping you choose items that will enhance your life together.\n\nYour wedding registry is a reflection of your shared vision for the future. Let us help you create a registry that tells your story and sets the stage for a lifetime of happiness together. Whether you're starting from scratch or looking to add special items to your existing home, we're here to make the process easy and enjoyable.",
+    "price": "Varies based on selected gifts"
+  },
+  {
+    "id": 4,
+    "img_url": "https://wordpress.zozothemes.com/wedknot/wp-content/uploads/sites/9/elementor/thumbs/Service-2-q93w3lobzs1176do8mtvzoi17fqv8i24q4kktzfgc0.jpg",
+    "title": "Makeup Artists",
+    "description": "Look your best on your big day with the help of our skilled makeup artists. Our team specializes in bridal makeup to enhance your natural beauty. We use high-quality products and techniques that ensure your makeup lasts throughout the celebration.\n\nOur makeup artists understand the importance of feeling confident and beautiful on your wedding day. We work closely with you to create the perfect bridal look, whether you prefer a natural and radiant style or a more dramatic and glamorous appearance.\n\nWe take pride in our attention to detail and commitment to making you look and feel your best. With our makeup services, you can step into your wedding day with confidence, knowing that you'll be stunning from ceremony to reception.",
+    "price": "$400"
+  },
+  {
+    "id": 5,
+    "img_url": "https://wordpress.zozothemes.com/wedknot/wp-content/uploads/sites/9/elementor/thumbs/Service-1-1-q93um4mv72tsps1whipy56a0mbb5cdrupgi5zapqb4.jpg",
+    "title": "Photographer Services",
+    "description": "Capture every precious moment with our professional photographers. We offer stunning photography packages to ensure your memories are preserved forever. Our experienced photographers have an artistic eye and a passion for storytelling.\n\nWe understand the significance of your wedding day and the emotions that come with it. Our photographers are dedicated to capturing the authentic moments, emotions, and details that make your wedding unique.\n\nFrom candid shots to beautifully composed portraits, we have the expertise to create a visual narrative that tells your love story. With our photography services, you can relive the joy, love, and beauty of your wedding day for years to come.",
+    "price": "$1500"
+  },
+  {
+    "id": 6,
+    "img_url": "https://wordpress.zozothemes.com/wedknot/wp-content/uploads/sites/9/elementor/thumbs/1-q93hbnuec1ucvh1ve77kfew6wfly6xaml9penq53lc.jpg",
+    "title": "Wedding Cake",
+    "description": "Indulge in the sweetness of love with our exquisite wedding cakes. Our skilled bakers will create a custom cake that tastes as good as it looks. We believe that your wedding cake should be a masterpiece that reflects your style and personality.\n\nOur cake artists take pride in their craftsmanship and attention to detail. Whether you envision a classic tiered cake or a modern and artistic design, we'll bring your cake dreams to life. We use only the finest ingredients to ensure that your cake is not only visually stunning but also delicious.\n\nYour wedding cake is a symbol of your love and commitment. Let us create a work of art that leaves a lasting impression on your taste buds and memories.",
+    "price": "$500"
+  }
+]
