@@ -19,48 +19,47 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement:<NotFound></NotFound>,
-   children :[
-    {
-      path:'/',
-      element:<Home></Home>
-    },
-    {
-      path:'/eventdetails/:id',
-      element:(<PrivateRoute><EventDetails></EventDetails></PrivateRoute>),
-      loader:()=>fetch('/services.json')
-    },
-    {
-      path:'/login',
-      element:<Login></Login>
-    },
-   
-    {
-      path:'/register',
-      element:<Register></Register>
-    },
-    {
-      path:'/blog',
-      element:(<PrivateRoute> <Blog></Blog></PrivateRoute>)
-    },
-    {
-      path:'/contact',
-      element:(<PrivateRoute> <ContactUs></ContactUs></PrivateRoute>)
-    },
-   
-   ]
+    errorElement: <NotFound></NotFound>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: '/eventdetails/:id',
+        element: (<PrivateRoute><EventDetails></EventDetails></PrivateRoute>),
+        loader: () => fetch('/services.json')
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
+      },
+
+      {
+        path: '/register',
+        element: <Register></Register>
+      },
+      {
+        path: '/blog',
+        element: (<PrivateRoute> <Blog></Blog></PrivateRoute>)
+      },
+      {
+        path: '/contact',
+        element: (<PrivateRoute> <ContactUs></ContactUs></PrivateRoute>)
+      },
+
+    ]
   },
- 
+
 ]);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
- 
+
   <React.StrictMode>
-         <AuthProviders>
+    <AuthProviders>
       <RouterProvider router={router}>
-        
       </RouterProvider>
     </AuthProviders>
   </React.StrictMode>,

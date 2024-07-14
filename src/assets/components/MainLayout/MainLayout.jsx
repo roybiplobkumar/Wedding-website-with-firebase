@@ -5,9 +5,13 @@ import Footer from "../Pages/Home/Footer/Footer";
 
 const MainLayout = () => {
     return (
-        <div className="container mx-auto">
+        <div className=" mx-auto">
            <Navbar></Navbar>
-            <Outlet></Outlet>
+           <div className="w-[90%] mx-auto">
+           <Outlet>
+            </Outlet> 
+           </div>
+          
             <Footer></Footer>
             
         </div>
