@@ -5,9 +5,9 @@ import Footer from "../Pages/Home/Footer/Footer";
 
 const MainLayout = () => {
     return (
-        <div className=" mx-auto">
+        <div className=" mx-auto font-raleway">
            <Navbar></Navbar>
-           <div className="w-[90%] mx-auto">
+           <div className=" w-full md:w-[90%] mx-auto">
            <Outlet>
             </Outlet> 
            </div>

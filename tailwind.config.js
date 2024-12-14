@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        raleway: ['Raleway', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
+    },
   },
   plugins: [require("daisyui")],
 }
