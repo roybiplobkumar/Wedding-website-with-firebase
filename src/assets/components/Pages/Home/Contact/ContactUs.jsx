@@ -11,7 +11,7 @@ const ContactUs = () => {
                 <div className='w-full md:w-1/2'>
                     <figure>
                         <img 
-                            src='https://wordpress.zozothemes.com/wedknot/wp-content/uploads/sites/9/elementor/thumbs/pexels-juan-vargas-6186859-q97ajmn44wbegc5o4od8m1k66s1k0ykoyt0qf6nosg.jpg' 
+                            src='contactus.jpg' 
                             alt="Contact Us" 
                             className="w-full h-auto rounded-lg object-cover shadow-md" 
                             data-aos="fade-right" 
