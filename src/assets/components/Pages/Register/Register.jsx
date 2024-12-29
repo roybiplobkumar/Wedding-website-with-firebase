@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate  } from "react-router-dom";
 import { AuthContext } from "../../../../Providers/AuthProviders";
 import { FcGoogle } from "react-icons/fc";
 import swal from "sweetalert";
@@ -7,9 +7,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Register = () => {
-  const { createUser, GoogleSignIn } = useContext(AuthContext);
+  const { createUser, GoogleSingIN } = useContext(AuthContext);
   const [error, setError] = useState("");
 
+  const navigate = useNavigate();
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -33,7 +34,7 @@ const Register = () => {
 
     createUser(email.value, password.value)
       .then(() => {
-        swal("Success!", "You have successfully registered!", "success");
+        swal(`Success!", "${name} have successfully registered!", "success`);
         e.target.reset();
       })
       .catch((err) => {
@@ -42,12 +43,13 @@ const Register = () => {
   };
 
   const handleGoogleSignin = () => {
-    GoogleSignIn()
-      .then(() => {
-        swal("Success!", "You have successfully logged in with Google!", "success");
+    GoogleSingIN()
+      .then((res) => {
+        swal("Success", `${res.user.displayName} logged in successfully`, "success");
+        navigate(location?.state || "/");
       })
       .catch((err) => {
-        swal("Error", `Google Sign-In failed: ${err.message}`, "error");
+        swal("Oops!", "Something went wrong: " + err.message, "error");
       });
   };
 
@@ -129,14 +131,11 @@ const Register = () => {
             <div className="w-full h-px bg-gray-300"></div>
           </div>
 
-          <div
-            onClick={handleGoogleSignin}
-            className="flex items-center justify-center gap-3 py-2 px-4 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-100 transition duration-300"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
-            <FcGoogle size={24} />
-            <p className="text-gray-700 font-medium">Continue with Google</p>
+          <div 
+            onClick={handleGoogleSignin} 
+            className="flex items-center justify-center gap-4 py-3 mx-4 border border-gray-300 rounded-full cursor-pointer transition duration-300 ease-in-out hover:bg-gray-100 hover:shadow-lg">
+            <FcGoogle size={28} />
+            <p className="text-gray-700 font-medium text-lg">Continue with Google</p>
           </div>
 
           <p className="text-center mt-6 text-gray-600" data-aos="fade-up">

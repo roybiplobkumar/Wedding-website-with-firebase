@@ -40,7 +40,7 @@ const Login = () => {
       <div className="hero-content flex-col lg:flex-row-reverse gap-10">
         <div className="text-center lg:text-left">
          
-          <img src="login.jpg" alt="Login Illustration" className="w-full  mx-auto" />
+          <img src="freepik__expand__69112.png" alt="Login Illustration" className="w-full  mx-auto" />
         </div>
 
         <div className="card w-full max-w-md shadow-xl bg-white rounded-xl">

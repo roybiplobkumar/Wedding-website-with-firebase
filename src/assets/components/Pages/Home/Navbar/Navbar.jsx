@@ -29,16 +29,7 @@ const Navbar = () => {
           Home
         </NavLink>
       </li>
-      <li>
-        <NavLink
-          to="/register"
-          className={({ isActive }) =>
-            isActive ? "text-blue-500 font-bold" : "hover:text-blue-400"
-          }
-        >
-          Register
-        </NavLink>
-      </li>
+     
       <li>
         <NavLink
           to="/blog"
@@ -59,6 +50,18 @@ const Navbar = () => {
           Contact Us
         </NavLink>
       </li>
+      {
+        user?"":<><li>
+        <NavLink
+          to="/register"
+          className={({ isActive }) =>
+            isActive ? "text-blue-500 font-bold" : "hover:text-blue-400"
+          }
+        >
+          Register
+        </NavLink>
+      </li></>
+      }
     </>
   );
 

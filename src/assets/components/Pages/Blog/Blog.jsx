@@ -6,7 +6,7 @@ const Blog = () => {
     const [blogData, setBlogData] = useState([]);
 
     useEffect(() => {
-        fetch('blog.json')
+        fetch('https://wedding-server-side.vercel.app/blog')
             .then((response) => response.json())
             .then((data) => setBlogData(data))
             .catch((error) => console.error('Error fetching data:', error));

@@ -11,9 +11,9 @@ const ContactUs = () => {
                 <div className='w-full md:w-1/2'>
                     <figure>
                         <img 
-                            src='contactus.jpg' 
+                            src='freepik__background__89610.png' 
                             alt="Contact Us" 
-                            className="w-full h-auto rounded-lg object-cover shadow-md" 
+                            className="w-full h-auto rounded-lg object-cover " 
                             data-aos="fade-right" 
                         />
                     </figure>
